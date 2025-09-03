@@ -1,0 +1,20 @@
+h1 {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: palevioletred;
+    padding: 10px;
+}
+button {
+    background-color: palevioletred;
+    color:white ;
+    text-decoration: solid;
+    border-color: white;
+}
+
+div {
+    background-color: brown;
+    color: white;
+    width: 300px;
+}
