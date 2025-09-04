@@ -1,3 +1,8 @@
+body {
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjJiYXRjaDQtbWluZC0wM18xXzIuanBn.jpg");
+   /* background-repeat: repeat-y;*/
+    background-attachment: scroll;
+}
 h1 {
     text-decoration: underline;
 }
@@ -17,4 +22,67 @@ div {
     background-color: brown;
     color: white;
     width: 300px;
+}
+
+h2,h3 { /*grouping selector */
+    text-align: center;
+    color: white;
+    background-color: rgba(255,0,0, 0.5);
+}
+
+p.abc {
+    background-color: lightcoral;
+    border-style: outset;
+    border-radius: 2px;
+    border-color: brown;
+}
+
+#arc {
+    max-width: 50%; /*what is the difference between max width and width*/
+    background-color: powderblue;
+    color: black;
+}
+
+#atc {
+    width: 300px;
+    background-color: blue;
+    columns: black;
+}
+
+#para {
+    text-align: justify;
+    background-color: brown;
+    color: white;
+    text-transform: capitalize;
+    
+}
+
+#text {
+    text-shadow: 2px 2px 2px blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:unvisited {
+    color:  red;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+ul.a {
+    list-style-type: circle;
+}
+
+ol.e {
+    list-style-type: lower-roman;
+}
+
+#table1,th,td{
+    border-width: 2px;
+    border-style: double;
+    border-collapse: collapse;
 }
