@@ -11,7 +11,7 @@ nav {
     background-color: palevioletred;
     padding: 10px;
 }
-button {
+/*button {
     background-color: palevioletred;
     color:white ;
     text-decoration: solid;
@@ -24,8 +24,8 @@ div {
     width: 300px;
 }
 
-h2,h3 { /*grouping selector */
-    text-align: center;
+h2,h3 { 
+   text-align: center;
     color: white;
     background-color: rgba(255,0,0, 0.5);
 }
@@ -38,8 +38,8 @@ p.abc {
 }
 
 #arc {
-    max-width: 50%; /*what is the difference between max width and width*/
-    background-color: powderblue;
+    max-width: 50%;
+  background-color: powderblue;
     color: black;
 }
 
@@ -85,4 +85,122 @@ ol.e {
     border-width: 2px;
     border-style: double;
     border-collapse: collapse;
+}
+img{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+#overflow {
+  background: #04AA6D;
+  color: white;
+  padding: 15px;
+  width: 90%;
+  height: 100px;
+  overflow: scroll;
+  border: 1px solid #ccc;
+}
+
+div p {
+    background-color: green;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid #555555;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color:grey ;
+  color: white;
+}
+*/
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery-item:hover {
+  border: 1px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+label {
+    display: block;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+body {
+  counter-reset: section;
+}
+
+h2::before {
+  counter-increment: section;
+  content: "Section " counter(section) ": ";
+}
+
+div.header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+div.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* horizontal */
+  align-items: center; 
+}
+
+p {
+  font-size: 16px;
+  line-height: 2em;
+}
+
+div {
+  font-size: 30px;
+  border: 1px solid black;
+}
+
+span {
+  font-size: 0.5em;
 }
