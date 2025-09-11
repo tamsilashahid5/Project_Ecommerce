@@ -191,16 +191,3 @@ div.flex-container {
   align-items: center; 
 }
 
-p {
-  font-size: 16px;
-  line-height: 2em;
-}
-
-div {
-  font-size: 30px;
-  border: 1px solid black;
-}
-
-span {
-  font-size: 0.5em;
-}
